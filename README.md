@@ -1,5 +1,4 @@
-# Trybe
-## Exercícios Trybe
+# Trybe - Exercícios
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[min](https://www.linkedin.com/in/alissonooliveira/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
