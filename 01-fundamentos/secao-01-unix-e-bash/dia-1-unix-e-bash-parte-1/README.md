@@ -1,5 +1,5 @@
 # Exercícios (2)
-## Exercício 1/2 - criação de arquivos e diretórios :heavy_check_mark:
+## Exercício 1/2 - Criação de arquivos e diretórios :heavy_check_mark:
 
 > Dica: Para criação de arquivos vazios, você pode utilizar o comando ```touch nome-do-arquivo.extensao.```
 
@@ -33,7 +33,7 @@ SQL
 - Apague todos os arquivos que terminem em ```.txt```.
 
 
-## Exercício 2/2 - manipulação & busca :heavy_check_mark:
+## Exercício 2/2 - Manipulação & busca :heavy_check_mark:
 1. Crie um novo diretório chamado ```unix_tests_search``` e entre nele. 
 2. Na pasta ```unix_tests_search```, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando ```curl```.
 
