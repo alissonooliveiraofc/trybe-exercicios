@@ -19,7 +19,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 2.2 - _Entendendo os comandos_
 
 ##### Bloco 3: Introdução à HTML & CSS :hourglass_flowing_sand:
-- [ ] 3.1 - _Estruturas de Página_
+- [X] 3.1 - _Estruturas de Página_
 - [ ] 3.2 - _Primeiros passos em CSS_
 - [ ] 3.3 - _Seletores e posicionamento_
 - [ ] 3.4 - _Semântica_
