@@ -27,3 +27,11 @@ Muitas das empresas mais modernas do mundo estão sempre em busca de pessoas des
 7- Partes do seu portfólio destacadas com negrito e/ou itálico;
 8- Um índice com links internos para as diferentes seções do seu portfólio.
 ```
+
+## Exercício 2 - Colocando seu Portfólio Web para o mundo ver!
+
+Agora que você finalizou seu Portfólio Web, chegou o momento em que você vai pegar tudo que você fez e colocar no GitHub Pages! 🎉
+
+>Atenção ⚠️: Crie um repositório em seu github e defina seu nome com o seguinte padrão: meuNomeDeUsuario.github.io. Feito isso, basta seguir as instruções do vídeo abaixo:
+
+https://pages.github.com/
