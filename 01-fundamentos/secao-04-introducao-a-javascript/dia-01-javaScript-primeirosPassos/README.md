@@ -46,3 +46,12 @@ Criar estruturas condicionais com operadores if/else e operadores lógicos será
 - Se o horário for maior ou igual a 11 e menor que 14, insira “Hora do almoço!!!” na variável “message”.
 - Se o horário estiver entre 4 e 11, insira “Hmmm, cheiro de café recém-passado” na variável “message”.
 - Agora imprima a variável message fora das suas condições.
+
+### Para Fixar 2
+- Crie uma variável chamada “weekDay” que receba a string “quarta-feira”.
+- Utilizando if/else, implemente condicionais para que:
+- Se nossa variável “weekDay” for “segunda-feira”, “terça-feira”, “quarta-feira”, “quinta-feira” ou “sexta-feira”, imprima “Oba, mais um dia de aprendizado na Trybe >:D”.
+- Se for algum dia de fim de semana, imprima “FINALMENTE, descanso merecido UwU”.
+
+Experimente trocar o valor da string ou até mesmo montar seu próprio algoritmo. Esse assunto é muito importante para seu aprendizado :).
+
