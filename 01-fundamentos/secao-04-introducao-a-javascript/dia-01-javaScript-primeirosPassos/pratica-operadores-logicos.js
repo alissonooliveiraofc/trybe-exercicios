@@ -13,13 +13,32 @@
 
 // ------------------------------------------------------------------
 
-const cenouras = true;
-const leite = true;
-const arroz = true;
-const feijao = true;
-const listaDeCompras = cenouras && leite && arroz && feijao;
+// const cenouras = true;
+// const leite = true;
+// const arroz = true;
+// const feijao = true;
+// const listaDeCompras = cenouras && leite && arroz && feijao;
 
-console.log(true && true); // true
-console.log(true && false); // false
-console.log(false && true); // false
-console.log(false && false); // false
+// console.log(true && true); // true
+// console.log(true && false); // false
+// console.log(false && true); // false
+// console.log(false && false); // false
+
+// ------------------------------------------------------------------------------------
+
+// Operadores lógicos (Operador OR ||)
+const bebidaPrincipal =  'cafezinho';
+const bebidaAlternativa = 'suco de laranja';
+
+if (bebidaPrincipal === 'cafezinho' || bebidaAlternativa === 'suco de laranja') {
+  console.log("Obrigado por me atender :D")
+} else {
+  console.log("Ei, eu não pedi isso!");
+}
+
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); // false
+
+//--------------------------------------------------------------------------------------
