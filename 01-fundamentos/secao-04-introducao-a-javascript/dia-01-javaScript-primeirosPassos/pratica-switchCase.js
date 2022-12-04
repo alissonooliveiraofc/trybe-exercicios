@@ -37,7 +37,7 @@
 
 
 
-mes = 'maio';
+let mes = 'junho';
 let estacaoDoAno = '?';
 
 switch (mes) {
