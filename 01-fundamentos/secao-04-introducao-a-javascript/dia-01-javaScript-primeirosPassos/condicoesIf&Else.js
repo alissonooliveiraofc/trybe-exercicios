@@ -1,4 +1,4 @@
-const note = 50;
+const note = 60;
 
 if (note >= 80) {
     console.log('Parabéns, você faz parte do grupo das pessoas aprovadas!');
