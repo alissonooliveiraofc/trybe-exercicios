@@ -1,5 +1,5 @@
 // Fetch funcionando com retorno da API
-fetch("https://api.goprogram.ai/inspiration")
+fetch("https://dummyjson.com/quotes/random")
   .then(response => response.json())
   .then(data => console.log(`"${data.quote}" | ${data.author}`));
 
