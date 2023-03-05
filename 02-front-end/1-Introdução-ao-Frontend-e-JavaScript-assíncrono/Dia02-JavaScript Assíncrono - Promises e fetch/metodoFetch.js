@@ -1,3 +1,8 @@
+// Fetch funcionando com retorno da API
+fetch("https://api.goprogram.ai/inspiration")
+  .then(response => response.json())
+  .then(data => console.log(`"${data.quote}" | ${data.author}`));
+
 // Requisição GET sem nenhuma configuração - recupera as informações de um produto.
 fetch('https://dummyjson.com/products/27')
   .then((response) => response.json())
