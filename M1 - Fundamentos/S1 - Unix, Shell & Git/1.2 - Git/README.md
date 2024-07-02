@@ -10,13 +10,13 @@
 - [x] 6. Adicione o arquivo novo em `staging` e realize um `commit`, como em `git add .` e `git commit -m "Descreva a alteração realizada"`.
 - [x] 7. Crie uma nova branch por meio do comando `git checkout -b`, como em `git checkout -b adiciona-readme`
 - [x] 8. Faça uma alteração em `README.md` e, depois, realize um novo commit, como em `git add . e git commit -m "Alterando o README"`.
-- [ ] 9. Retorne para a branch `main` e, em seguida, realize o `merge` das alterações por meio do comando `git merge nome-da-branch`, como em `git merge adiciona-readme`.
+- [x] 9. Retorne para a branch `main` e, em seguida, realize o `merge` das alterações por meio do comando `git merge nome-da-branch`, como em `git merge adiciona-readme`.
 
 ## Exercício 2 - Recapitulando 🎯
 
-- [ ] 1. Acesse a branch main e crie uma branch nova chamada `atualiza-readme`.
-- [ ] 2. Acesse a branch `atualiza-readme` e crie um arquivo chamado `infos.txt`.
-- [ ] 3. Adicione as alterações em staging e realize um commit.
+- [x] 1. Acesse a branch main e crie uma branch nova chamada `atualiza-readme`.
+- [x] 2. Acesse a branch `atualiza-readme` e crie um arquivo chamado `infos.txt`.
+- [x] 3. Adicione as alterações em staging e realize um commit.
 - [ ] 4. Adicione seu nome e sobrenome ao arquivo `infos.txt`.
 - [ ] 5. Adicione novamente as alterações em staging e realize um commit.
 - [ ] 6. Crie uma branch nova a partir da branch `atualiza-readme`. A nova branch deve se chamar `adiciona-infos`.
