@@ -9,7 +9,7 @@
 - [x] 5. Crie um arquivo chamado `README.md`.
 - [x] 6. Adicione o arquivo novo em `staging` e realize um `commit`, como em `git add .` e `git commit -m "Descreva a alteração realizada"`.
 - [x] 7. Crie uma nova branch por meio do comando `git checkout -b`, como em `git checkout -b adiciona-readme`
-- [ ] 8. Faça uma alteração em `README.md` e, depois, realize um novo commit, como em `git add . e git commit -m "Alterando o README"`.
+- [x] 8. Faça uma alteração em `README.md` e, depois, realize um novo commit, como em `git add . e git commit -m "Alterando o README"`.
 - [ ] 9. Retorne para a branch `main` e, em seguida, realize o `merge` das alterações por meio do comando `git merge nome-da-branch`, como em `git merge adiciona-readme`.
 
 ## Exercício 2 - Recapitulando 🎯
