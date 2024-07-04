@@ -10,5 +10,5 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
   <summary><strong>1️⃣ Módulo - Fundamentos</strong></summary><br>
 
 - [x] 1.1 - Unix, Shell & Git.
-- [ ] 1.2 - HTML & CSS.
+- [ ] 1.2 - Html & Css.
 </details>
