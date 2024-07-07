@@ -1,4 +1,6 @@
-## Exercício 1 - Para fixar 📓
+# Exercícios :books:
+
+## Exercício 1 - Para fixar 🎯
 
 ```
 <!DOCTYPE html>
@@ -20,17 +22,20 @@
 </html>
 ```
 
-- Modifique o tamanho do h1 para 65 pixels;
+- [x] Modifique o tamanho do h1 para 65 pixels;
 
-- Modifique a cor do texto do h1 para laranja;
+- [x] Modifique a cor do texto do h1 para laranja;
 
-- Modifique a cor de fundo da lista não ordenada;
+- [x] Modifique a cor de fundo da lista não ordenada;
 
-- Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
+- [x] Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
 
 > Não se esqueça de dar um PUSH no seu repositório para sincronizá-lo com o GitHub!
 
-## Exercício 2 - Propriedades de texto no CSS 📓
+---
+
+## Exercício 2 - Propriedades de texto no CSS 🎯
+
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -51,19 +56,19 @@
 </html>
 ```
 
-- Modifique o ```font-family``` do ```h1``` para ```sans-serif```;
+- Modifique o `font-family` do `h1` para `sans-serif`;
 
-- Deixe o parágrafo com o ```font-weight 600```;
+- Deixe o parágrafo com o `font-weight 600`;
 
-- Modifique o ```font-size do body para 16px```;
+- Modifique o `font-size do body para 16px`;
 
-- Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do ```body```;
+- Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do `body`;
 
-- Explore as propriedades ```font-style```, ```line-height```, ```text-align``` e ```text-decoration```;
+- Explore as propriedades `font-style`, `line-height`, `text-align` e `text-decoration`;
 
 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto.
 
-## Exercício 3 - CSS inline e externo
+## Exercício 3 - CSS inline e externo 🎯
 
 ```
 <!DOCTYPE html>
@@ -75,7 +80,7 @@
       h1 {
         color: seagreen;
         font-size: 65px;
-        font-family: sans-serif, Helvetica; 
+        font-family: sans-serif, Helvetica;
       }
 
       .cor-de-fundo {
@@ -126,7 +131,7 @@
 
 - Coloque todo o CSS da tag style em um arquivo externo.
 
-## Exercício 4 - Estilizando seu Portfólio Web!
+## Exercício 4 - Estilizando seu Portfólio Web! 🎯
 
 1. Entre no diretório do Portfólio que você já começou a fazer;
 2. Adicione a tag <style></style>, que é onde você vai colocar suas alterações;
@@ -134,9 +139,10 @@
 4. Lembre-se de que, para executar o seu código enquanto o desenvolve, você deve utilizar a extensão Live Server. Para saber mais sobre ela, acesse nosso conteúdo sobre isso.
 
 ### Requisitos
+
 Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
-* Defina fontes diferentes para o seu nome e para a descrição que você criou;
-* Defina uma cor base de background do seu Portfólio Web;
-* Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
-* Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos.
+- Defina fontes diferentes para o seu nome e para a descrição que você criou;
+- Defina uma cor base de background do seu Portfólio Web;
+- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
+- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos.
