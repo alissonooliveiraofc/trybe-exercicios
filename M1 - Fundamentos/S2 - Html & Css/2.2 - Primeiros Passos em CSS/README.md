@@ -131,7 +131,9 @@
 </html>
 ```
 
-- Coloque todo o CSS da tag style em um arquivo externo.
+- [x] Coloque todo o CSS da tag style em um arquivo externo.
+
+---
 
 ## Exercício 4 - Estilizando seu Portfólio Web! 🎯
 
