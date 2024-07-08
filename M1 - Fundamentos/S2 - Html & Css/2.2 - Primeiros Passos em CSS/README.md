@@ -131,9 +131,13 @@
 </html>
 ```
 
-- Coloque todo o CSS da tag style em um arquivo externo.
+- [x] Coloque todo o CSS da tag style em um arquivo externo.
+
+---
 
 ## Exercício 4 - Estilizando seu Portfólio Web! 🎯
+
+### Link do portifólio: [Clique aqui!](https://alissonooliveiraofc.github.io) :computer:
 
 1. Entre no diretório do Portfólio que você já começou a fazer;
 2. Adicione a tag <style></style>, que é onde você vai colocar suas alterações;
