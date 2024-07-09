@@ -66,7 +66,7 @@ O importante é que você tenha compreendido bem como funciona o box model do CS
 
 ---
 
-## Exercício 2 - Posicionamento de Elementos
+## Exercício 2 - Posicionamento de Elementos 🎯
 
 Que tal praticarmos como manipular o posicionamento de elementos? Utilize o HTML e CSS a seguir como ponto de partida para resolver os exercícios:
 
@@ -119,9 +119,11 @@ style.css:
 
 Personagens pertencentes à Nintendo©
 
-- Posicione o Mário acima do Goomba.
-- Posicione a tag p para que fique dentro do balão de fala.
-- Posicione o balão para que se torne uma fala de Bowser
+- [x] Posicione o Mário acima do Goomba.
+- [x] Posicione a tag p para que fique dentro do balão de fala.
+- [x] Posicione o balão para que se torne uma fala de Bowser
+
+---
 
 ## Exercício 3 - Agrupamento de Seletores e Pseudo-classes
 
