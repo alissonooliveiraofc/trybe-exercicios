@@ -77,7 +77,7 @@ index.html:
 </html>
 ```
 
-- [ ] Consegui fazer igual a imagem abaixo?
+- [x] Consegui fazer igual a imagem abaixo?
 
 ![Imagem de referência](https://content-assets.betrybe.com/prod/222a0c4b-11a9-4b0e-b72c-b631216c6cff-Podium%20and%20prizes%20final%20structure.png)
 
