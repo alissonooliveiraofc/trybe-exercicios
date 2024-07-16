@@ -1,6 +1,6 @@
 ## Exercícios :books:
 
-## Exercício 1 - Para fixar 🎯
+### Exercício 1 - Para fixar 🎯
 
 > De olho na dica 👀: Com o plugin Code Runner que vimos no vídeo você pode executar o seu código no VS Code com o atalho ctrl + alt + n. Aqui você encontra mais sobre o Code Runner e sobre outras extensões úteis para o VS Code!
 
@@ -13,23 +13,25 @@
 
 ---
 
-## Tipos Primitivos, Tipagem Dinâmica e Operações Aritméticas
+### Tipos Primitivos, Tipagem Dinâmica e Operações Aritméticas
 
-### ## Exercício 2 - Para fixar 🎯
+### Exercício 2 - Para fixar 🎯
 
 Agora que você já conhece os operadores aritméticos básicos do JavaScript, vamos praticá-los? Você pode consultar a lista de operadores na tabela JavaScript Arithmetic Operators disponível nesse link se tiver dúvidas.
 
 Vamos fazer algumas operações simples para encontrarmos a área e o perímetro de um retângulo de base 5 e altura 8.
 
-- [ ] Crie uma constante chamada base e atribua a ela o valor 5.
-- [ ] Crie uma constante uma chamada heigth e atribua a ela o valor 8.
-- [ ] Crie uma constante chamada area e atribua a ela o resultado da multiplicação da base pela heigth.
+- [x] Crie uma constante chamada base e atribua a ela o valor 5.
+- [x] Crie uma constante uma chamada heigth e atribua a ela o valor 8.
+- [x] Crie uma constante chamada area e atribua a ela o resultado da multiplicação da base pela heigth.
   > Dica: lembre-se de usar sempre o console.log() para imprimir as variáveis e checar os resultados das operações!
-- [ ] Crie uma constante chamada perimeter e atribua a ela a soma de todos os lados do retângulo.
+- [x] Crie uma constante chamada perimeter e atribua a ela a soma de todos os lados do retângulo.
 
-## Condições If & Else
+---
 
-### ## Exercício 3 - Para fixar 🎯
+### Condições If & Else
+
+### Exercício 3 - Para fixar 🎯
 
 Criar estruturas condicionais com operadores if/else e operadores lógicos será algo muito comum na sua carreira de pessoa desenvolvedora. Então vamos praticar essa habilidade tão importante?
 
@@ -40,6 +42,8 @@ Criar estruturas condicionais com operadores if/else e operadores lógicos será
 - [ ] Se a nota for menor que 60, imprima “Infelizmente, você reprovou.”
 - [ ] Crie uma estrutura condicional utilizando o if, else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
 - [ ] Altere o valor da nota para verificar se as condições que você implementou funcionam.
+
+---
 
 ## Operadores Lógicos
 
