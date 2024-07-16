@@ -35,19 +35,19 @@ Vamos fazer algumas operações simples para encontrarmos a área e o perímetro
 
 Criar estruturas condicionais com operadores if/else e operadores lógicos será algo muito comum na sua carreira de pessoa desenvolvedora. Então vamos praticar essa habilidade tão importante?
 
-- [ ] Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico, e atribua a ela um valor entre 1 e 100;
-- [ ] Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se essa pessoa está na lista de espera. Para isso, considere as seguintes informações:
-- [ ] Se a nota for maior ou igual a 80, imprima “Parabéns, você faz parte do grupo das pessoas aprovadas!”
-- [ ] Se a nota for menor que 80 e maior ou igual a 60, imprima “Você está na nossa lista de espera”
-- [ ] Se a nota for menor que 60, imprima “Infelizmente, você reprovou.”
-- [ ] Crie uma estrutura condicional utilizando o if, else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
-- [ ] Altere o valor da nota para verificar se as condições que você implementou funcionam.
+- [x] Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico, e atribua a ela um valor entre 1 e 100;
+- [x] Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se essa pessoa está na lista de espera. Para isso, considere as seguintes informações:
+- Se a nota for maior ou igual a 80, imprima “Parabéns, você faz parte do grupo das pessoas aprovadas!”
+- Se a nota for menor que 80 e maior ou igual a 60, imprima “Você está na nossa lista de espera”
+- Se a nota for menor que 60, imprima “Infelizmente, você reprovou.”
+- Crie uma estrutura condicional utilizando o if, else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
+- [x] Altere o valor da nota para verificar se as condições que você implementou funcionam.
 
 ---
 
-## Operadores Lógicos
+### Operadores Lógicos
 
-### Para fixar
+### Exercício 4 - Para fixar 🎯
 
 - [ ] Crie uma constante chamada “currentHour”, que receba um número entre 4 e 24 de sua escolha, para representar as horas do dia.
 - [ ] Crie uma variável chamada “message” que, inicialmente, é uma string vazia.
