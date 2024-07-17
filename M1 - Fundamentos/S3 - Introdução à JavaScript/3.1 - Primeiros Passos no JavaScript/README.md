@@ -60,3 +60,15 @@ Criar estruturas condicionais com operadores if/else e operadores lógicos será
 - [x] Agora imprima a variável message fora das suas condições.
 
 ---
+
+### Exercício 5 🎯
+
+Elabore alguns códigos e imprima o resultado no console usando o console.log, um para cada operação aritmética básica. É necessário que seu código tenha duas variáveis, `num1` e `num2`, definidas no começo com os valores que serão operados. Escreva códigos para:
+
+- [x] Adição (num1 + num2)
+- [x] Subtração (num1 - num2)
+- [x] Multiplicação (num1 \* num2)
+- [x] Divisão (num1 / num2)
+- [x] Módulo (num1 % num2)
+
+---
