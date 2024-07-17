@@ -72,3 +72,9 @@ Elabore alguns códigos e imprima o resultado no console usando o console.log, u
 - [x] Módulo (num1 % num2)
 
 ---
+
+### Exercício 6 :dart:
+
+- [x] Utilize `if/else` para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
+
+---
