@@ -87,8 +87,18 @@ Elabore alguns códigos e imprima o resultado no console usando o console.log, u
 
 ### Exercício 8 :dart:
 
-- [ ] Utilize `if...else` para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+- [x] Utilize `if...else` para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
 
 > 👀 Dica: para os ângulos serem de um triângulo válido, a soma dos três ângulos deve ser 180 graus. Um ângulo será considerado inválido se não tiver um valor positivo.
 
 ---
+
+### Exercício 9 :dart:
+
+- [x] Utilize `switch/case` para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
+
+Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
+
+Exemplo: Bispo -> Diagonais.
+
+- [x] Desafio extra ⭐️ Escreva um código para funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais. Uma dica é pesquisar uma função que faça uma string ficar com todas as letras minúsculas (lower case).
