@@ -102,3 +102,12 @@ Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
 Exemplo: Bispo -> Diagonais.
 
 - [x] Desafio extra ⭐️ Escreva um código para funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais. Uma dica é pesquisar uma função que faça uma string ficar com todas as letras minúsculas (lower case).
+
+---
+
+### Exercício 10: Há um par entre nós :dart:
+
+- [x] Utilize `if...else` para escrever um código que defina três números em variáveis e retorne `true` se pelo menos uma das três for par. Caso contrário, o código deve retornar `false`. <br><br>
+      Faça esse exercício utilizando somente um `if`.
+
+---
