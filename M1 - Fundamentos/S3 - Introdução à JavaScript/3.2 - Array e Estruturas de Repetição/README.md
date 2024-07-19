@@ -59,3 +59,11 @@ Considere esse array para realizar os próximos exercícios: <br>
 - [x] Crie um algoritmo que imprima na tela o fatorial de 10.
 
 ---
+
+### Exercício 6 - Desafio de inverter palavra :dart:
+
+- [x] Utilize a estrutura de repetição `for` para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
+
+> De olho na dica 👀: Pesquise sobre os seguintes métodos: `split()`, `reverse()` e `join()`;
+
+---
