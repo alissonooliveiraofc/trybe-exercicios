@@ -67,3 +67,19 @@ Considere esse array para realizar os próximos exercícios: <br>
 > De olho na dica 👀: Pesquise sobre os seguintes métodos: `split()`, `reverse()` e `join()`;
 
 ---
+
+### Exercício 7 - Desafio dos asteriscos :dart:
+
+- [ ] Escreva um algoritmo que, dado um valor n, sendo n > 1, imprima na tela um quadrado feito de asteriscos de tamanho n. Por exemplo:
+
+```
+n = 5
+
+*****
+*****
+*****
+*****
+*****
+```
+
+---
