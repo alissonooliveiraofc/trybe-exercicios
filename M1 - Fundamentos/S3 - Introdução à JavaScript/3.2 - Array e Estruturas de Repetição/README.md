@@ -99,3 +99,19 @@ n = 5
 ```
 
 ---
+
+### Exercício 9 - Desafio dos asteriscos, parte 2 :dart:
+
+- [x] Agora, inverta o lado do triângulo. Por exemplo
+
+```
+n = 5
+
+    *
+   **
+  ***
+ ****
+*****
+```
+
+---
