@@ -53,3 +53,9 @@ Considere esse array para realizar os próximos exercícios: <br>
 - [x] Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
 ---
+
+### Exercício 5 - Desafio fatorial :dart:
+
+- [x] Crie um algoritmo que imprima na tela o fatorial de 10.
+
+---
