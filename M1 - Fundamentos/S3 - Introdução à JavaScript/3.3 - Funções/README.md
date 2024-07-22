@@ -9,3 +9,9 @@
 - Divida o valor do balance.
 
 ---
+
+### Exercício 2 - Para fixar 🎯
+
+- [x] Faça um programa para adicionar pessoas clientes ao array do TrybeBank. A função deve se chamar `addCustomer` e receber um parâmetro do tipo string e, caso o parâmetro não seja do tipo string, retorne a mensagem: “O parâmetro passado deve ser do tipo string”.
+
+---
