@@ -25,3 +25,9 @@ const bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];
 - [x] Acesse a chave `bestInTheWorld` por meio da sintaxe `meuObjeto['chave']` e armazene na variável `achievements` a quantidade de títulos no seguinte formato: “A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes”.
 
 ---
+
+### Exercício 4 - 🎯
+
+- [x] Adicione as propriedades `email`, `fone`, `userGithub` e `linkedIn` ao objeto customer (do exemplo anterior), chamando a função `addProperty`.
+
+---
