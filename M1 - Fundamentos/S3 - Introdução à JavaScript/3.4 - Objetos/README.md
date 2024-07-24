@@ -75,7 +75,7 @@ const reader = {
 
 ### Exercício 6 - Manipulação de objetos :dart:
 
-- [ ] Imagine que você seja responsável por cuidar do sistema de entrega de um restaurante e que precise enviar mensagens com as informações da compra. Para isso, use o seguinte código:
+- [x] Imagine que você seja responsável por cuidar do sistema de entrega de um restaurante e que precise enviar mensagens com as informações da compra. Para isso, use o seguinte código:
 
 ```
 const order = {
