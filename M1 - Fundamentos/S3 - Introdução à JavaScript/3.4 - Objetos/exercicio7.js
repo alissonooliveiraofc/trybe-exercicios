@@ -27,7 +27,7 @@ const school = {
 };
 
 const valuePosition = (obj, index) => Object.values(obj)[index];
-// console.log(valuePosition(school, 0));
+console.log(valuePosition(school, 0));
 
 const sumStudents = (obj) => {
   let totalStudents = 0;
@@ -40,14 +40,14 @@ const sumStudents = (obj) => {
   return totalStudents;
 };
 
-// console.log(sumStudents(school));
+console.log(sumStudents(school));
 
 const keyExists = (obj, key) => {
   const keys = Object.keys(obj.lessons[0]);
   return keys.includes(key);
 };
 
-// console.log(keyExists(school, "professor"));
+console.log(keyExists(school, "professor"));
 
 const changeKey = (obj, course, value) => {
   for (let index = 0; index < obj.lessons.length; index += 1) {
