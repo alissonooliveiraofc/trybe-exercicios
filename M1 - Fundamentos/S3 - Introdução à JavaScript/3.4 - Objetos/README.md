@@ -181,7 +181,7 @@ const school = {
 
 ### Exercício 8 - Manipulação de objetos 4 :dart:
 
-- [ ] Por meio do array de frutas chamado basket, crie um objeto que contenha o nome da fruta como chave e a quantidade de vezes que ela aparece no array como valor.
+- [x] Por meio do array de frutas chamado basket, crie um objeto que contenha o nome da fruta como chave e a quantidade de vezes que ela aparece no array como valor.
 
 Por exemplo, o array `['Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva']` deverá retornar:
 
