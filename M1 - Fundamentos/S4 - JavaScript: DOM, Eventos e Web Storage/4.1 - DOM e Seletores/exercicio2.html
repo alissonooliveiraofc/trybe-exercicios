@@ -54,6 +54,7 @@
       font-weight: 700;
       padding: 15px;
       text-align: center;
+      margin-top: 170px;
     }
   </style>
 </head>
@@ -84,7 +85,24 @@
   <footer id="footer-container">
     <div>&copy; Trybe</div>
   </footer>
-  <script src="script.js"></script>
+
+  <script>
+    document.querySelector('header').style = 'background-color: rgb(0, 176, 105);';
+
+    document.querySelectorAll('.emergency-tasks div')[0].style.backgroundColor = 'rgb(255, 159, 132)';
+    document.querySelectorAll('.emergency-tasks div')[1].style.backgroundColor = 'rgb(255, 159, 132)';
+
+    document.querySelectorAll('.emergency-tasks h3')[0].style.backgroundColor = 'rgb(165, 0, 243)';
+    document.querySelectorAll('.emergency-tasks h3')[1].style.backgroundColor = 'rgb(165, 0, 243)';
+
+    document.querySelectorAll('.no-emergency-tasks div')[0].style.backgroundColor = 'rgb(249, 219, 94)';
+    document.querySelectorAll('.no-emergency-tasks div')[1].style.backgroundColor = 'rgb(249, 219, 94)';
+
+    document.querySelectorAll('.no-emergency-tasks h3')[0].style = 'background-color: rgb(35, 37, 37); color: white;';
+    document.querySelectorAll('.no-emergency-tasks h3')[1].style = 'background-color: rgb(35, 37, 37); color: white;';
+
+    document.querySelector('#footer-container').style = 'background-color: rgb(0, 53, 51); color: white;';
+  </script>
 </body>
 
 </html>
