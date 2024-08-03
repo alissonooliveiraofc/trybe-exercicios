@@ -20,7 +20,17 @@
   </main>
 
   <script>
+    const element = document.getElementById('where-are-you');
+    const parent = element.parentNode;
+    const firstChildOfChild = element.firstElementChild;
+    const firstChild = parent.firstElementChild;
+    const firstChild2 = element.previousElementSibling;
+    const attention = element.nextSibling;
+    const thirdChild = element.nextElementSibling;
+    const thirdChild2 = parent.lastElementChild.previousElementSibling;
 
+    parent.style.color = 'red';
+    console.log(thirdChild2);
   </script>
 </body>
 
