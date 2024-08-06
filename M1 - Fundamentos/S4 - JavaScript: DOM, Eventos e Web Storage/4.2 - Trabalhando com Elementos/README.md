@@ -28,3 +28,29 @@ Adicione o código a seguir a uma página HTML e adicione uma tag `script`. Voc�
 - [x] Acesse o `third-child` a partir de `parent`.
 
 ---
+
+### Exercício 2 - Criando Elementos :dart:
+
+Código `html`:
+
+```
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+```
+
+- [x] Crie um irmão para elementoOndeVoceEsta.
+- [x] Crie um filho para elementoOndeVoceEsta.
+- [x] Crie um filho para primeiroFilhoDoFilho.
+- [x] A partir desse filho criado, acesse terceiroFilho.
+
+---
