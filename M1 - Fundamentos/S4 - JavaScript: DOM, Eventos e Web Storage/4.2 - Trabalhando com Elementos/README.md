@@ -54,3 +54,31 @@ Código `html`:
 - [x] A partir desse filho criado, acesse terceiroFilho.
 
 ---
+
+### Exercício 3 - Removendo Elementos :dart:
+
+Código html:
+
+```
+<main id="father-of-father">
+    <section id="parent">
+      <section id="first-child">
+        <h2>Primeiro Filho</h2>
+      </section>
+      <section id="where-are-you">
+        <h2>Elemento que você deve remover</h2>
+      </section>
+      <section id="third-child">
+        <h2>Terceiro Filho</h2>
+      </section>
+      <section id="quartoEUltimoFilho">
+        <h2>Quarto Filho</h2>
+      </section>
+
+    </section>
+  </main>
+```
+
+- [x] Remova a tag `h2`, filha do elemento `where-are-you`.
+
+---
