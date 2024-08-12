@@ -86,6 +86,9 @@
     document.body.appendChild(h1);
     document.body.appendChild(main);
 
+    document.querySelector('h1').className = 'title';
+
+
     const mainElement = document.getElementsByClassName('main-content')[0];
     mainElement.appendChild(section);
     mainElement.appendChild(section2);
@@ -93,6 +96,10 @@
     mainElement.appendChild(h3Primeiro);
     mainElement.appendChild(h3Segundo);
     mainElement.appendChild(h3Terceiro);
+
+    document.querySelectorAll('h3')[0].className = 'description';
+    document.querySelectorAll('h3')[1].className = 'description';
+    document.querySelectorAll('h3')[2].className = 'description';
 
     section2.appendChild(image1);
     section3.appendChild(ul);
@@ -112,8 +119,14 @@
     sectionElement.appendChild(p);
     document.querySelector('p').innerText = 'Venha conhecer os melhores lugares do mundo!';
 
-    console.log(mainElement);
+    const removerSection = document.getElementsByClassName('left-content')[0];
+    mainElement.removeChild(removerSection);
+    mainElement.children[1].style.margin = 'auto';
+    mainElement.style.backgroundColor = 'green';
 
+    const list = document.getElementsByTagName('li');
+    list[9].remove();
+    list[8].remove();
   </script>
 </body>
 
