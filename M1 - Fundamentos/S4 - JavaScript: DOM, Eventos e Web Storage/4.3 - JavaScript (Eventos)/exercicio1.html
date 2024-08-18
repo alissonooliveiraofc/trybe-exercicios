@@ -134,6 +134,19 @@
 
     // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
     // a cor do mesmo.
+    // hexadecimal é composto de 6 digitos de 0 a 9 e de a a f
+    const changeColor = (event) => {
+      let hex = '0123456789abcdef';
+      let color = '#';
+
+      for (let index = 0; index < 6; index += 1) {
+        const randomIndex = Math.floor(Math.random() * hex.length);
+        color += hex[randomIndex];
+      }
+
+      event.target.style.color = color;
+    }
+    myWebpage.addEventListener('mouseover', changeColor);
 
     // Segue abaixo um exemplo de uso do event.target.
 
