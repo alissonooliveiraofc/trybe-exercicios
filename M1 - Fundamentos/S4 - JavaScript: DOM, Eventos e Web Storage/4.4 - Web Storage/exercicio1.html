@@ -106,6 +106,8 @@
   </main>
 
   <script>
+    let color = document.querySelector('.paragraph');
+
     window.onload = () => {
       const setBackgroundColor = (color) => {
         let content = document.querySelector(".content")
@@ -145,22 +147,31 @@
       for (let index = 0; index < backgroundColorButtons.length; index += 1) {
         backgroundColorButtons[index].addEventListener("click", (event) => {
           setBackgroundColor(event.target.innerHTML)
-        })
+          const content = document.querySelector(".content");
+          localStorage.setItem("backgroundColor", JSON.stringify(content.style.backgroundColor));
+        });
       }
+
+      let content = document.querySelector(".content")
+      content.style.backgroundColor = JSON.parse(localStorage.getItem("backgroundColor"));
 
       // Cor do texto;
       let fontColorButtons = document.querySelectorAll("#font-color>button")
       for (let index = 0; index < fontColorButtons.length; index += 1) {
         fontColorButtons[index].addEventListener("click", (event) => {
-          setFontColor(event.target.innerHTML)
+          setFontColor(event.target.innerHTML);
+          localStorage.setItem("fontColor", JSON.stringify(color.style.color));
         })
+        content.style.color = JSON.parse(localStorage.getItem("fontColor"));
       }
 
       // Tamanho da fonte
-      let fontSizeButtons = document.querySelectorAll("#font-size>button")
+      let fontSizeButtons = document.querySelectorAll("#font-size>button");
+
       for (let index = 0; index < fontSizeButtons.length; index += 1) {
         fontSizeButtons[index].addEventListener("click", (event) => {
-          setFontSize(event.target.innerHTML)
+          setFontSize(event.target.innerHTML);
+
         })
       }
 

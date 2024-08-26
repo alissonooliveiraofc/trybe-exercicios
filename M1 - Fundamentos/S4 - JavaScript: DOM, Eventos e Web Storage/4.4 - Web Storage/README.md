@@ -192,8 +192,8 @@ window.onload = () => {
 
 Agora implemente o código para que a pessoa usuária possa salvar suas preferencias de acordo com os exercícios a seguir:
 
-- [ ] Armazene a cor de fundo escolhida pela pessoa usuária no navegador.
-- [ ] Armazene a cor do texto escolhida pela pessoa usuária no navegador.
+- [x] Armazene a cor de fundo escolhida pela pessoa usuária no navegador.
+- [x] Armazene a cor do texto escolhida pela pessoa usuária no navegador.
 - [ ] Armazene o tamanho da fonte escolhida pela pessoa usuária no navegador.
 - [ ] Armazene o espaçamento entre as linhas do texto escolhido pela pessoa usuária no navegador.
 - [ ] Armazene o tipo da fonte (Font family) escolhida pela pessoa usuária no navegador.
