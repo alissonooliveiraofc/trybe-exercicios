@@ -171,25 +171,32 @@
       for (let index = 0; index < fontSizeButtons.length; index += 1) {
         fontSizeButtons[index].addEventListener("click", (event) => {
           setFontSize(event.target.innerHTML);
-
+          localStorage.setItem('fontSize', JSON.stringify(color.style.fontSize));
         })
       }
+
+      content.style.fontSize = JSON.parse(localStorage.getItem('fontSize'));
 
       // Espaçamento entre as linhas do texto;
       let lineHeightButtons = document.querySelectorAll("#line-height>button")
       for (let index = 0; index < lineHeightButtons.length; index += 1) {
         lineHeightButtons[index].addEventListener("click", (event) => {
-          setLineHeight(event.target.innerHTML)
+          setLineHeight(event.target.innerHTML);
+          localStorage.setItem('lineHeight', JSON.stringify(color.style.lineHeight));
         })
-      }
+      };
+
+      color.style.lineHeight = JSON.parse(localStorage.getItem('lineHeight'));
 
       // Tipo da fonte (_Font family_).
       let fontFamilyButtons = document.querySelectorAll("#font-family>button")
       for (let index = 0; index < fontFamilyButtons.length; index += 1) {
         fontFamilyButtons[index].addEventListener("click", (event) => {
-          setFontFamily(event.target.innerHTML)
+          setFontFamily(event.target.innerHTML);
+          localStorage.setItem('fontFamily', JSON.stringify(color.style.fontFamily));
         })
       }
+      color.style.fontFamily = JSON.parse(localStorage.getItem('fontFamily'));
     }
   </script>
 </body>
