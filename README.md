@@ -12,5 +12,6 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 1 - Unix, Shell & Git.
 - [x] 2 - Html & Css.
 - [x] 3 - Introdução à JavaScript.
-- [ ] 4 - JavaScript: DOM, Eventos e Web Storage.
+- [x] 4 - JavaScript: DOM, Eventos e Web Storage.
+- [ ] 5 - HTML e CSS: Forms, Flexbox e Responsivo
 </details>
