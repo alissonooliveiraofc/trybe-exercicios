@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <main id="parent-of-parent">
+    <section id="parent">
+      <section id="first-child"></section>
+      <section id="where-are-you">
+        <section id="first-child-of-child"></section>
+      </section>
+      Attention!
+      <section id="third-child"></section>
+      <section id="fourth-and-last-child"></section>
+    </section>
+  </main>
+
+  <script>
+    const element = document.getElementById('where-are-you');
+    const parent = element.parentNode;
+    const firstChildOfChild = element.firstElementChild;
+    const firstChild = parent.firstElementChild;
+    const firstChild2 = element.previousElementSibling;
+    const attention = element.nextSibling;
+    const thirdChild = element.nextElementSibling;
+    const thirdChild2 = parent.lastElementChild.previousElementSibling;
+
+    parent.style.color = 'red';
+    console.log(thirdChild2);
+  </script>
+</body>
+
+</html>

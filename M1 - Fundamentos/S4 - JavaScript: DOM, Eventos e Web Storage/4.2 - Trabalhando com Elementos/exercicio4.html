@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    const h1 = document.createElement('h1');
+    const main = document.createElement('main');
+    const section = document.createElement('section');
+    const section2 = document.createElement('section');
+    const section3 = document.createElement('section');
+    const p = document.createElement('p');
+    const image1 = document.createElement('img');
+    const ul = document.createElement('ul');
+    const h3Primeiro = document.createElement('h3');
+    const h3Segundo = document.createElement('h3');
+    const h3Terceiro = document.createElement('h3');
+
+    main.className = 'main-content';
+    section.className = 'center-content';
+    section2.className = 'left-content';
+    section3.className = 'right-content';
+    image1.className = 'small-image';
+
+    h1.innerText = 'TrybeTrip - Agência de Viagens';
+    image1.src = 'https://picsum.photos/200';
+    h3Primeiro.innerText = 'Sobre';
+    h3Segundo.innerText = 'Destinos';
+    h3Terceiro.innerText = 'Agência';
+
+    document.body.appendChild(h1);
+    document.body.appendChild(main);
+
+    document.querySelector('h1').className = 'title';
+
+
+    const mainElement = document.getElementsByClassName('main-content')[0];
+    mainElement.appendChild(section);
+    mainElement.appendChild(section2);
+    mainElement.appendChild(section3);
+    mainElement.appendChild(h3Primeiro);
+    mainElement.appendChild(h3Segundo);
+    mainElement.appendChild(h3Terceiro);
+
+    document.querySelectorAll('h3')[0].className = 'description';
+    document.querySelectorAll('h3')[1].className = 'description';
+    document.querySelectorAll('h3')[2].className = 'description';
+
+    section2.appendChild(image1);
+    section3.appendChild(ul);
+
+    const convertNumbers = (number) => {
+      const numeros = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      return numeros[number - 1];
+    }
+
+    for (let index = 0; index < 10; index += 1) {
+      const li = document.createElement('li');
+      li.innerText = convertNumbers(index + 1);
+      ul.appendChild(li);
+    }
+
+    const sectionElement = document.getElementsByClassName('center-content')[0];
+    sectionElement.appendChild(p);
+    document.querySelector('p').innerText = 'Venha conhecer os melhores lugares do mundo!';
+
+    const removerSection = document.getElementsByClassName('left-content')[0];
+    mainElement.removeChild(removerSection);
+    mainElement.children[1].style.margin = 'auto';
+    mainElement.style.backgroundColor = 'green';
+
+    const list = document.getElementsByTagName('li');
+    list[9].remove();
+    list[8].remove();
+  </script>
+</body>
+
+</html>
