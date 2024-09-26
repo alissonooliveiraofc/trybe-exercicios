@@ -198,3 +198,64 @@ Teste as possibilidades para a propriedade flex-grow.
 ```
 
 ---
+
+### Exercicio 4 - flex-shrink :dart:
+
+Teste as possibilidades para a propriedade `flex-shrink`.
+Altere as propriedades do exercicio anterior para:
+
+```
+<!-- -->
+    <style>
+      .container {
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 100%;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-basis: 500px;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+
+      .one {
+        background-color: #FBD26A;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 1;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #FAA488;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 1;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069EF;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 1;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 1;
+        list-style: none;
+      }
+    </style>
+<!-- ... -->
+```
+
+---
