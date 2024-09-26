@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testando Flex</title>
+  <style>
+    /* html {
+      display: flex;
+      justify-content: center;
+    } */
+
+    .container {
+      display: flex;
+      /* background-color: darkgray; */
+    }
+
+    .box {
+      display: flex;
+      background-color: brown;
+      padding: 15px;
+      border: 1px solid black;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+
+    .sub-container {
+      padding: 10px;
+      display: flex;
+      border: 2px solid white;
+      width: 70%;
+      justify-content: center;
+      flex-flow: column;
+    }
+
+    .sub-box {
+      border: 2px solid rgb(27, 156, 48);
+      padding: 10px;
+      margin: 2px;
+      /* align-self: center; */
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="box">1</div>
+    <div class="box">
+      <div class="sub-container">2
+        <div class="sub-box">2.1</div>
+        <div class="sub-box">2.2</div>
+        <div class="sub-box">2.3</div>
+        <div class="sub-box">2.4</div>
+      </div>
+    </div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+  </main>
+</body>
+
+</html>
