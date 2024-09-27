@@ -506,3 +506,6 @@ body {
 ```
 
 - Aplique no seu container `aside` uma `base` de `350px`.
+
+6. Nos elemento `aside`, centralize e expanda seu conteúdo.
+7. Adicione uma propriedade ao seu container de filmes para que ele tenha uma `base` de `700px`. Também adicione para os elementos filhos do seu card uma `base` de `16%`.
