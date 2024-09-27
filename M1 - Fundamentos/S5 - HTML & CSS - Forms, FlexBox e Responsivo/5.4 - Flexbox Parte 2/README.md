@@ -511,3 +511,5 @@ body {
 7. Adicione uma propriedade ao seu container de filmes para que ele tenha uma `base` de `700px`. Também adicione para os elementos filhos do seu card uma `base` de `16%`.
 8. No container de filmes aplique uma propriedade para expandi-lo, essa propriedade deve ter o valor `10`.
 9. Faça com que suas `div` do container de `filmes` ocupe todo o espaço em branco.
+
+---
