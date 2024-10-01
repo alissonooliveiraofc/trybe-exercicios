@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitten Kare</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    #container {
+      margin: 0 auto;
+      width: 100%;
+      background: #fff;
+    }
+
+    #header {
+      background: #ccc;
+      padding: 20px;
+    }
+
+    #header h1 {
+      margin: 0;
+    }
+
+    #navigation {
+      width: 100%;
+      background: #333;
+    }
+
+    #navigation ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navigation ul li {
+      list-style-type: none;
+      display: flex;
+    }
+
+    #navigation li a {
+      padding: 5px 10px;
+      color: #fff;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    #navigation li a:hover {
+      background: #383;
+    }
+
+    #content-container {
+      width: 100%;
+      background: #FFF;
+      display: flex;
+    }
+
+    #content {
+      width: 60%;
+      padding: 20px 0;
+      margin: 0 0 0 4%;
+    }
+
+    #content h2 {
+      margin: 0;
+    }
+
+    #aside {
+      width: 33%;
+      padding: 20px 0;
+      margin: 0 3% 0 0;
+    }
+
+    #aside h3 {
+      margin: 5px;
+    }
+
+    #footer {
+      background: #ccc;
+      text-align: right;
+      padding: 20px;
+      height: 1%;
+    }
+
+    @media print {
+
+      #header,
+      #navigation,
+      #footer {
+        display: none;
+      }
+
+      #content-container {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 700px) {
+      #aside {
+        display: none;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      #navigation ul {
+        flex-direction: column;
+      }
+
+      #header {
+        position: fixed;
+        width: 100%;
+        height: 75px;
+      }
+
+      #navigation {
+        padding-top: 75px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+      <h1>
+        Kitten Kare
+      </h1>
+    </header>
+    <nav id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+    <main id="content-container">
+      <article id="content">
+        <h2>
+          Welcome!
+        </h2>
+        <img
+          src="data:image/jpeg;base64,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">
+        <p>The domestic cat (Felis catus or Felis silvestris catus, informally Felis domesticus) is a
+          small, usually furry, domesticated, carnivorous mammal. It is often called the housecat when kept as an indoor
+          pet, or simply the cat when there is no need to distinguish it from other felids and felines. Cats are
+          valued by humans for companionship and ability to hunt vermin and household pests. They are primarily
+          nocturnal.
+        </p>
+        <p>Cats are similar in anatomy to the other felids, with strong, flexible bodies, quick reflexes, sharp
+          retractable claws, and teeth adapted to killing small prey. As crepuscular predators, cats use their acute
+          hearing and ability to see in near darkness to locate prey. Not only can cats hear sounds too faint for human
+          ears, they can also hear sounds higher in frequency than humans can perceive. This is because the usual prey
+          of cats (particularly rodents such as mice) make high frequency noises, so the hearing of the cat has evolved
+          to pinpoint these faint high-pitched sounds. Cats also have a much better sense of smell than humans.
+        </p>
+        <p>Despite being solitary hunters, cats are a social species, and cat communication includes the use of a
+          variety of vocalizations (meowing, purring, trilling, hissing, growling and grunting) as well as pheromones
+          and types of cat-specific body language.
+        </p>
+      </article>
+      <aside id="aside">
+        <h3>
+          Cat Body Types
+        </h3>
+        <ul>
+          <li>Oriental</li>
+          <li>Foreign</li>
+          <li>Semi-Foreign</li>
+          <li>Semi-Cobby</li>
+          <li>Cobby</li>
+        </ul>
+      </aside>
+    </main>
+    <footer id="footer">
+      Copyright © Kitten Kare, 2019
+    </footer>
+  </div>
+</body>
+
+</html>
