@@ -96,9 +96,10 @@ const clients = [
 ];
 
 const findPersonByName = (name) => {
-  // seu código aqui
+  const person = "";
   for (let i = 0; i < clients.length; i += 1) {
     if (clients[i].name === name) {
+      person = clients[i];
       return `Destinatário: ${name}. Endereço: ${clients[i].address.street}, ${clients[i].address.number}, ${clients[i].address.neighborhood}, ${clients[i].address.city} - ${clients[i].address.state}. CEP: ${clients[i].address.cep} `;
     }
   }
