@@ -96,16 +96,21 @@ const clients = [
 ];
 
 const findPersonByName = (name) => {
-  const person = "";
+  let person = "";
+
   for (let i = 0; i < clients.length; i += 1) {
     if (clients[i].name === name) {
       person = clients[i];
       return `Destinatário: ${name}. Endereço: ${clients[i].address.street}, ${clients[i].address.number}, ${clients[i].address.neighborhood}, ${clients[i].address.city} - ${clients[i].address.state}. CEP: ${clients[i].address.cep} `;
     }
   }
+
+  if (!person) {
+    throw new Error("Pessoa não encontrada, tente novamente!");
+  }
 };
 
-console.log(findPersonByName("Ana Santos"));
+console.log(findPersonByName("Alisson Oliveira"));
 
 const findPersonByPosition = (position) => {
   // seu código aqui
