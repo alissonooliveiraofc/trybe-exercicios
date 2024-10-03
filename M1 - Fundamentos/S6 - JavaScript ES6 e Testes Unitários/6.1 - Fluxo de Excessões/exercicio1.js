@@ -110,11 +110,17 @@ const findPersonByName = (name) => {
   }
 };
 
-console.log(findPersonByName("Alisson Oliveira"));
+// console.log(findPersonByName("Alisson Oliveira"));
 
 const findPersonByPosition = (position) => {
-  // seu código aqui
+  const person = clients[position];
+  if (!person) {
+    throw new Error("Posição inválida, tente novamente");
+  }
+  return `Cliente: ${person.name}. email: ${person.email}`;
 };
+
+console.log(findPersonByPosition(0));
 
 const findPeopleByState = (state) => {
   // seu código aqui
