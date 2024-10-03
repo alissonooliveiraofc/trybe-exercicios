@@ -120,8 +120,24 @@ const findPersonByPosition = (position) => {
   return `Cliente: ${person.name}. email: ${person.email}`;
 };
 
-console.log(findPersonByPosition(0));
+// console.log(findPersonByPosition(0));
+
+const arrayValidation = (array) => {
+  if (array.length === 0) {
+    throw new Error("Ops, nenhuma pessoa mora nesse estado, tente outro");
+  }
+};
 
 const findPeopleByState = (state) => {
-  // seu código aqui
+  let people = [];
+  for (let index = 0; index < clients.length; index += 1) {
+    if (clients[index].address.state === state) {
+      people.push(clients[index].name);
+    }
+  }
+  arrayValidation(people);
+  return people;
 };
+
+// console.log(findPeopleByState("MG")); // Fluxo completo
+console.log(findPeopleByState("AC")); // Fluxo de exceção
