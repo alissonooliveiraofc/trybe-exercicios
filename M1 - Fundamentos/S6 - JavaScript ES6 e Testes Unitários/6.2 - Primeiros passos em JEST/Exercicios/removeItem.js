@@ -10,6 +10,6 @@ function removeItem(arr, item) {
   return newArr;
 }
 
-console.log(removeItem([1, 2, 3, 4], 5));
+// console.log(removeItem([1, 2, 3, 4], 5));
 
 module.exports = removeItem;
