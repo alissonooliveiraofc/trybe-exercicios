@@ -38,6 +38,6 @@ const decode = (string) => {
   return mapString(map, string);
 };
 
-// console.log(typeof encode && typeof decode);
+console.log(encode("ana"));
 
 module.exports = { encode, decode };
