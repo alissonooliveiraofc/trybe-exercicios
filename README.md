@@ -14,5 +14,6 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - [x] 3 - Introdução à JavaScript.
 - [x] 4 - JavaScript: DOM, Eventos e Web Storage.
 - [x] 5 - HTML e CSS: Forms, Flexbox e Responsivo.
-- [ ] 6 - Introdução à JavaScript ES6 e Testes Unitários.
+- [x] 6 - Introdução à JavaScript ES6 e Testes Unitários.
+- [ ] 7 - Métodos de Array.
 </details>
