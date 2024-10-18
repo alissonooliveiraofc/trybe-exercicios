@@ -32,3 +32,25 @@ const players = [
 Utilizando o método `filter` e `array destructuring`, crie uma função `filterHighPlayers` que retorna um novo array contendo apenas os jogadores com altura igual ou superior a 200 centímetros.
 
 ---
+
+### Exercício 3 - Sort
+
+1. Utilize o `sort` para ordenar o array pela idade das pessoas em ordem crescente.
+
+```javascript
+const people = [
+  { name: "Mateus", age: 18 },
+  { name: "José", age: 16 },
+  { name: "Ana", age: 23 },
+  { name: "Cláudia", age: 20 },
+  { name: "Bruna", age: 19 },
+];
+
+// Adicione seu código aqui
+
+console.log(people);
+```
+
+2. Modifique o `sort` do exercício anterior para que ordene o array pela idade das pessoas em ordem decrescente.
+
+---
