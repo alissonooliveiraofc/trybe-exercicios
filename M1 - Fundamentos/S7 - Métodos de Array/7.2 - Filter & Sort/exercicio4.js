@@ -20,3 +20,28 @@ const pokemons = [
   { name: "Arcanine", type: "Fogo", level: 55 },
   { name: "Jolteon", type: "Elétrico", level: 40 },
 ];
+
+// FILTRANDO POKEMONS ACIMA DO LEVEL 30
+const filterStrongPokemons = (array) =>
+  array.filter(({ level }) => level >= 30);
+
+// FILTRANDO NOMES DOS POKEMONS ACIMA DO LEVEL 50
+const getStrongPokemonNames = (array) =>
+  array.filter(({ level }) => level >= 50).map(({ name }) => ({ name }));
+
+// ORDENANDO POKEMONS POR LEVEL CRESCENTE
+pokemons.sort((a, b) => a.level - b.level);
+
+// ORDENANDO POKEMONS POR LEVEL DECRESCENTE
+const sortPokemons = (array) =>
+  array.sort(
+    ({ level: aLevel, name: aName }, { level: bLevel, name: bName }) => {
+      if (aLevel === bLevel) {
+        return aName.localeCompare(bName);
+      }
+
+      return bLevel - aLevel;
+    }
+  );
+
+console.log(sortPokemons(pokemons));
