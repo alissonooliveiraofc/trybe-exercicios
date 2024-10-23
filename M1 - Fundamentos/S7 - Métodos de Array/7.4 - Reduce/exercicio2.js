@@ -1,20 +1,3 @@
-## Exercícios para fixação :pencil2:
-
-### Exercício 1 - Reduce :heavy_check_mark:
-
-Faça uma função que some todos os números pares do array numbers usando reduce.
-
-```javascript
-const numbers = [18, 19, 23, 53, 4, 5, 76, 23, 54];
-```
-
----
-
-### Exercício 2 - Reduce :heavy_check_mark:
-
-Crie uma função usando dados de estudantes, para mostrar na tela um relatório que diz em qual matéria a pessoa foi melhor. Você usará tanto o `map` quanto o `reduce` dentro dele.
-
-```javascript
 const students = [
   {
     name: "Jorge",
@@ -89,19 +72,15 @@ const students = [
     ],
   },
 ];
-```
 
-Resultado esperado:
+const filteredGrades = students.map(({ name, courses }) => {
+  const grades = courses.reduce((acc, course) =>
+    course.grade > acc.grade ? course : acc
+  );
+  return {
+    name,
+    course: grades.name,
+  };
+});
 
-```javascript
-[
-  { name: "Jorge", course: "Português" },
-  { name: "Mario", course: "Biologia" },
-  { name: "Jorge", course: "Português" },
-  { name: "Maria", course: "Química" },
-  { name: "Natalia", course: "Português" },
-  { name: "Wilson", course: "Português" },
-];
-```
-
----
+console.log(filteredGrades);
