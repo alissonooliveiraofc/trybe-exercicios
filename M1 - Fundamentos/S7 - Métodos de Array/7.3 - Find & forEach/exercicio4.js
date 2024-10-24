@@ -124,8 +124,11 @@ const copyCountries = (countries, newCountry) => [...countries, newCountry];
 // ITEM 5
 const buildString = (countries, name, ...properties) => {
   const result = countries.find((country) => country.name === name);
-  return `${result.name} - ${properties}`;
+  return `${result.name} - ${properties.join(" - ")}`;
 };
+// console.log(
+//   buildString(countries, "Brazil", "Brasília", "BRL", "Brazilian Real")
+// );
 
 countries.forEach((country) => {
   const string = buildString(
