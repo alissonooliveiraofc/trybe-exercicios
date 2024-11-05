@@ -5,6 +5,10 @@ const img = document.querySelector("img");
 const heroName = document.querySelector("#hero-name");
 const button = document.querySelector("button");
 
+heroName.style.fontWeight = "bold";
+heroName.style.textTransform = "uppercase";
+button.style.textTransform = "uppercase";
+
 const randomNumber = () => Math.ceil(Math.random() * 731);
 
 button.addEventListener("click", (event) => {
