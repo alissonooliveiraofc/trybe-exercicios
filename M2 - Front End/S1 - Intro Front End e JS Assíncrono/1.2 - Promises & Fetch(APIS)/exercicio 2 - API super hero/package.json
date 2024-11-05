@@ -1,0 +1,14 @@
+{
+  "name": "api-super-hero",
+  "version": "1.0.0",
+  "description": "Teste dos conhecimentos em API's e fetch",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alisson Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.14.5"
+  }
+}
