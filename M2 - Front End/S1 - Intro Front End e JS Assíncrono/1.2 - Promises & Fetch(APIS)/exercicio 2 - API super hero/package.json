@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "sweetalert2": "^11.14.5"
-  }
+  },
+  "type": "module"
 }
