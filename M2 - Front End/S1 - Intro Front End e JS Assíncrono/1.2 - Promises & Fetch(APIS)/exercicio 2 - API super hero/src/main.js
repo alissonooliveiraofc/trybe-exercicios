@@ -7,7 +7,8 @@ const button = document.querySelector("button");
 
 const randomNumber = () => Math.ceil(Math.random() * 731);
 
-button.addEventListener("click", () => {
+button.addEventListener("click", (event) => {
+  event.preventDefault();
   fetch(
     `https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/id/${randomNumber()}.json`
   )
@@ -18,9 +19,10 @@ button.addEventListener("click", () => {
     })
     .catch((error) => {
       Swal.fire({
-        icon: "error",
-        title: "Oops... Temos um problema!",
+        title: "Herói não encontrado",
         text: error.message,
+        icon: "error",
+        confirmButtonText: "OK",
       });
     });
 });
