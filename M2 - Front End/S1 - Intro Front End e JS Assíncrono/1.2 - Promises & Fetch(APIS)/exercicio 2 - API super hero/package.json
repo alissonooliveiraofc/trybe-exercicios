@@ -11,5 +11,8 @@
   "dependencies": {
     "sweetalert2": "^11.14.5"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "sass-embedded": "^1.80.6"
+  }
 }
