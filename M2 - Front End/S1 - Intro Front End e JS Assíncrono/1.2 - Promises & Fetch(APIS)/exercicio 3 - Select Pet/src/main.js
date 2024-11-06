@@ -2,6 +2,8 @@ const dogBtn = document.querySelector("#dog-btn");
 const catBtn = document.querySelector("#cat-btn");
 const randomBtn = document.querySelector("#random-btn");
 const img = document.querySelector("#img-element");
+import Swal from "sweetalert2";
+import "sweetalert2/src/sweetalert2.scss";
 
 // BOTÃO DOS DOGS
 dogBtn.addEventListener("click", (event) => {
@@ -11,7 +13,13 @@ dogBtn.addEventListener("click", (event) => {
     .then(({ message }) => {
       img.src = message;
     })
-    .catch((error) => console.log(error));
+    .catch((error) => {
+      Swal.fire({
+        title: "O DOG fugiu! Tente de novo! - Erro da API",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
+    });
 });
 
 // BOTÃO DOS CATS
@@ -22,7 +30,13 @@ catBtn.addEventListener("click", (event) => {
     .then((response) => {
       img.src = response[0].url;
     })
-    .catch((error) => console.log(error));
+    .catch((error) => {
+      Swal.fire({
+        title: "O gato te abandonou! - Erro da API",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
+    });
 });
 
 // BOTÃO RANDOM
@@ -43,5 +57,11 @@ randomBtn.addEventListener("click", () => {
       console.log("Response time:", endTime - startTime, "ms");
       img.src = result;
     })
-    .catch((error) => console.log(error));
+    .catch((error) => {
+      Swal.fire({
+        title: "Seu dog ou seu gato foi doado - Erro da API",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
+    });
 });
