@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* @media screen and (max-width: 600px){button {width: 80px;}}
+@media screen and (min-width: 600px){}
+@media screen and (min-width: 1000px){} */
+
 body {
   display: flex;
   height: 100vh;
