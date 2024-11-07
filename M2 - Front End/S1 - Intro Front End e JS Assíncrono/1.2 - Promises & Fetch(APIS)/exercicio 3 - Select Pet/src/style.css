@@ -23,6 +23,7 @@ header {
   padding: 30px;
   align-self: flex-start;
   width: 100%;
+  min-width: 450px;
   justify-content: space-evenly;
   /* background: linear-gradient(to right, rgba(58, 158, 150, 0.404), rgba(76, 192, 207, 0.192)); */
   background: linear-gradient(to bottom right, #db9534, #a79e9b);
