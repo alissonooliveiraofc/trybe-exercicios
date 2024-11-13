@@ -13,8 +13,7 @@ async function handleClick() {
     const result = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
     const data = await result.json();
 
-    const { rua, bairro, localidade, uf, ddd, estado, logradouro, regiao } =
-      data;
+    const { bairro, localidade, uf, ddd, estado, logradouro, regiao } = data;
 
     const info = [
       `Bairro: ${bairro}`,
