@@ -1,20 +1,41 @@
 import Swal from "sweetalert2";
 
-const buttonEl = document.querySelector("button");
-const inputEl = document.querySelector("input");
-const preEl = document.querySelector("pre");
+const botao = document.querySelector("button");
+const input = document.querySelector("input");
+const p = document.querySelectorAll("p");
 
-buttonEl.addEventListener("click", handleClick);
+botao.addEventListener("click", handleClick);
 
 async function handleClick() {
-  const cep = inputEl.value;
+  const cep = input.value;
 
   try {
     const result = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
     const data = await result.json();
 
-    preEl.innerHTML = JSON.stringify(data);
+    const { rua, bairro, localidade, uf, ddd, estado, logradouro, regiao } =
+      data;
+
+    const info = [
+      `Bairro: ${bairro}`,
+      `Localidade: ${localidade}`,
+      `UF: ${uf}`,
+      `DDD: ${ddd}`,
+      `Estado: ${estado}`,
+      `Logradouro: ${logradouro}`,
+      `Região: ${regiao}`,
+    ];
+
+    p.forEach((element, index) => {
+      element.style.display = "block";
+      element.textContent = info[index];
+    });
   } catch (error) {
-    alert(error.message);
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: error.message,
+      confirmButtonText: "Ok",
+    });
   }
 }
