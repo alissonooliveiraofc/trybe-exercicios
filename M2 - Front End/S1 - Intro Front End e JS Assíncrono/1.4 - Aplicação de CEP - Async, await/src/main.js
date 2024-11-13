@@ -16,18 +16,18 @@ async function handleClick() {
     const { bairro, localidade, uf, ddd, estado, logradouro, regiao } = data;
 
     const info = [
-      `Bairro: ${bairro}`,
-      `Localidade: ${localidade}`,
-      `UF: ${uf}`,
-      `DDD: ${ddd}`,
-      `Estado: ${estado}`,
-      `Logradouro: ${logradouro}`,
-      `Região: ${regiao}`,
+      `<strong style="color: #a2e046;">Logradouro:</strong> ${logradouro}`,
+      `<strong style="color: #a2e046;">Bairro:</strong> ${bairro}`,
+      `<strong style="color: #a2e046;">Localidade:</strong> ${localidade}`,
+      `<strong style="color: #a2e046;">DDD:</strong> ${ddd}`,
+      `<strong style="color: #a2e046;">UF:</strong> ${uf}`,
+      `<strong style="color: #a2e046;">Estado:</strong> ${estado}`,
+      `<strong style="color: #a2e046;">Região:</strong> ${regiao}`,
     ];
 
     p.forEach((element, index) => {
       element.style.display = "block";
-      element.textContent = info[index];
+      element.innerHTML = info[index];
     });
   } catch (error) {
     Swal.fire({
