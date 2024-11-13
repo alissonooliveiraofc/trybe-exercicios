@@ -33,7 +33,7 @@ async function handleClick() {
     Swal.fire({
       icon: "error",
       title: "Oops...",
-      text: error.message,
+      text: "CEP inválido",
       confirmButtonText: "Ok",
     });
   }
