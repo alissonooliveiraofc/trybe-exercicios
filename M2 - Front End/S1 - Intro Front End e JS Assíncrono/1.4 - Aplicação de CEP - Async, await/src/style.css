@@ -7,6 +7,10 @@
     box-sizing: border-box;
   }
 
+  main {
+    /* height: 100%; */
+    margin: 0 auto;
+  }
   body {
     /* flex-direction: column; */
     /* padding: 10px; */
@@ -22,6 +26,10 @@
 @media (min-width: 601px) and (max-width: 900px) {
   *{
     box-sizing: border-box;
+  }
+
+  main {
+    margin: 0 auto;
   }
 body {
   overflow-y: hidden;
@@ -39,6 +47,10 @@ body {
 @media (min-width: 901px) {
   *{
     box-sizing: border-box;
+  }
+
+  main {
+    margin: 0 auto;
   }
 body { 
   overflow-y: hidden;
