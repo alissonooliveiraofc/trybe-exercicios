@@ -3,23 +3,26 @@
 }
 
 @media (max-width: 600px) {
+  *{
+    box-sizing: border-box;
+  }
+
   body {
     /* flex-direction: column; */
-    padding: 10px;
+    /* padding: 10px; */
     overflow-y: hidden;
   }
 
-  main {
+  /* main {
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
-  p {
-    width: 100%;
-  }
-}
 
 @media (min-width: 601px) and (max-width: 900px) {
+  *{
+    box-sizing: border-box;
+  }
 body {
   overflow-y: hidden;
 }
@@ -34,6 +37,9 @@ body {
 }
 
 @media (min-width: 901px) {
+  *{
+    box-sizing: border-box;
+  }
 body { 
   overflow-y: hidden;
 }
