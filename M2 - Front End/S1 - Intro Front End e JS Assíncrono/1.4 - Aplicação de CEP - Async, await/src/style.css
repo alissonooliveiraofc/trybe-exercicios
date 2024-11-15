@@ -4,7 +4,7 @@
 
 @media (max-width: 600px) {
   body {
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 10px;
     overflow-y: hidden;
   }
