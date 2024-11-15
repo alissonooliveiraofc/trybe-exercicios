@@ -26,7 +26,7 @@ async function handleClick() {
     ];
 
     p.forEach((element, index) => {
-      element.style.display = "block";
+      element.style.display = "flex";
       element.innerHTML = info[index];
     });
   } catch (error) {
