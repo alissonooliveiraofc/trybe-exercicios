@@ -21,5 +21,6 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 <details>
   <summary><strong>2️⃣ Módulo - Front-End</strong></summary><br>
 
-- [ ] 1 - Intro & JS Assíncrono.
+- [x] 1 - Intro & JS Assíncrono.
+- [ ] 2 - Introdução ao React.
 </details>
