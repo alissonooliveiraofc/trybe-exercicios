@@ -1,14 +1,12 @@
 function Greeting() {
-  const firstName = 'Miguel';
-  const lastName = 'Silva';
+  const firstName = 'Alisson';
+  const lastName = 'Oliveira';
 
   return (
-    <>
-      <h1 className="greeting">
-        Olá {`${firstName} ${lastName}`}
-        <img src="https://i.imgur.com/rqvLd3q.png" alt="" />
-      </h1>
-    </>
+    <h1 className="greeting">
+      Olá {`${firstName} ${lastName}`}
+      <img src="https://i.imgur.com/rqvLd3q.png" alt="" />
+    </h1>
   );
 }
 
