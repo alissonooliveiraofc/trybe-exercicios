@@ -1,11 +1,10 @@
 import './App.css'
+import HelloWorld from './components/HelloWorld'
 
 function App() {
 
   return (
-    <main>
-      <h1>Loading content</h1>
-    </main>
+    <HelloWorld />
   )
 }
 
