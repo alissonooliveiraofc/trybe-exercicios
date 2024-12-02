@@ -1,11 +1,12 @@
 type ButtonProps = {
   onClick: () => void;
+  children: React.ReactNode;
 };
 
-function Button({onClick}: ButtonProps) {
+function Button({onClick, children}: ButtonProps) {
 
   return (
-    <button onClick={onClick}>Cliquem em min</button>
+    <button onClick={onClick}>{children}</button>
   )
 }
 
