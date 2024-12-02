@@ -1,11 +1,11 @@
-function Button() {
-  
-  function handleClick() {
-    alert('Meu primeiro event handler com React')
-  }
+type ButtonProps = {
+  onClick: () => void;
+};
+
+function Button({onClick}: ButtonProps) {
 
   return (
-    <button onClick={handleClick}>Cliquem em min</button>
+    <button onClick={onClick}>Cliquem em min</button>
   )
 }
 
