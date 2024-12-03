@@ -3,17 +3,14 @@ import Button from './components/Button'
 
 function App() {
   
-  function handleClick() {
-    alert('BOTÃO 1')
+  function handleClick(text: string) {
+    alert(text);
   }
 
-  function handleClick2() {
-    alert('BOTÃO 2')
-  }
   return (
     <>
-      <Button onClick={handleClick}>BOTÃO 1</Button>
-      <Button onClick={handleClick2}>BOTÃO 2</Button>
+      <Button onClick={() => handleClick('Botão 1 na tela!')}>BOTÃO 1</Button>
+      <Button onClick={() => handleClick('Botão 2 na tela!')}>BOTÃO 2</Button>
     </>
   )
 }
