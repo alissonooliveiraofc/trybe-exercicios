@@ -34,8 +34,8 @@ function App() {
     <>
       <h1>Caixa de ferramentas de uma Pessoa Desenvolvedora</h1>
       <h2>{toolKit[index]}</h2>
-      <button>Anterior</button>
-      <button>Próximo</button>
+      <button onClick={handlePreviousClick}>Anterior</button>
+      <button onClick={handleNextClick}>Próximo</button>
     </>
   )
 }
