@@ -23,7 +23,7 @@ function App() {
         </label>
         <label>
           Resumo das experiências
-          <textarea />
+          <textarea maxLength={500} style={{ width: '300px', height: '150px', backgroundColor: 'black', padding: '10px' }} />
         </label>
         <button>Enviar</button>
       </form>

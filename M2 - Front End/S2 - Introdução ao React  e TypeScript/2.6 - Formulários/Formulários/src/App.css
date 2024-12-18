@@ -1,5 +1,37 @@
-#root {
-  margin: 0 auto;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+#root {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 15px;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
