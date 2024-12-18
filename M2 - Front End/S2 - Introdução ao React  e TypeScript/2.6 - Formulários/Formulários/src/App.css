@@ -13,9 +13,11 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   justify-content: center;
   gap: 15px;
+  min-width: 400px;
+  text-align: center;
 }
 
 body {
@@ -34,4 +36,10 @@ input {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+.terms {
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 5px;
 }
