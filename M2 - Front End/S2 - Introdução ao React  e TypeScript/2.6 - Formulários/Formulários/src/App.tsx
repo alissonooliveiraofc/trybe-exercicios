@@ -26,21 +26,18 @@ function App() {
     setEmail('');
     setSchooling('Médio');
     setResume('');
-  }
-
-  console.log(name, email, schooling, resume);
-  
+  }  
   
   return (
     <>
       <form onSubmit={(event) => handleSubmit(event)}>
         <label>
           Nome
-          <input value={name} onChange={(event) => setName(event.target.value)} />
+          <input required value={name} onChange={(event) => setName(event.target.value)} />
         </label>
         <label>
           E-mail
-          <input value={email} onChange={(event) => setEmail(event.target.value)} />
+          <input required value={email} onChange={(event) => setEmail(event.target.value)} />
         </label>
         <label>
           Escolaridade
