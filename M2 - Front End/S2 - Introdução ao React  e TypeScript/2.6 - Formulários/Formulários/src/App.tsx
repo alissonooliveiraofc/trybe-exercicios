@@ -2,18 +2,32 @@ import { useState } from 'react';
 import './App.css'
 
 function App() {
-  const [name, setName] = useState(''); //estado do nome
-  const [email, setEmail] = useState(''); //estado do email
-  const [schooling, setSchooling] = useState('Médio'); //estado da escolaridade
-  const [resume, setResume] = useState(''); //estado do currículo
+  const [formInfo, setFormInfo] = useState({
+    name: '',
+    email: '',
+    schooling: 'Médio',
+    resume: '',
+  });
+
   const [termos, setTermos] = useState(false); //estado dos termos
   const [error, setError] = useState(false); // estado do erro
+
+  function handleChange(event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) {
+    const { name, value } = event.target;
+    setFormInfo((prevFormInfo) => ({
+      ...prevFormInfo,
+      [name]: value,
+  }));
+  }
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (termos) {
+      resetForm();
+      setTermos(false);
+      setError(false);
       alert(
-        `Nome: ${name}\nemail: ${email}\nEscolaridade: ${schooling}\nExperiências: ${resume}`
+        `Nome: ${formInfo.name}\nemail: ${formInfo.email}\nEscolaridade: ${formInfo.schooling}\nExperiências: ${formInfo.resume}`
       );
       resetForm();
     } else {
@@ -22,10 +36,12 @@ function App() {
   }
 
   function resetForm() {
-    setName('');
-    setEmail('');
-    setSchooling('Médio');
-    setResume('');
+    setFormInfo({
+      name: '',
+      email: '',
+      schooling: 'Médio',
+      resume: '',
+    })
   }  
   
   return (
@@ -33,15 +49,29 @@ function App() {
       <form onSubmit={(event) => handleSubmit(event)}>
         <label>
           Nome
-          <input required value={name} onChange={(event) => setName(event.target.value)} />
+          <input
+            required
+            value={formInfo.name}
+            onChange={ handleChange }
+            name='name'
+          />
         </label>
         <label>
           E-mail
-          <input required value={email} onChange={(event) => setEmail(event.target.value)} />
+          <input
+            required
+            name='email'
+            value={formInfo.email} 
+            onChange={handleChange}
+          />
         </label>
         <label>
           Escolaridade
-          <select value={schooling} onChange={({ target }) => setSchooling(target.value)}>
+          <select
+            value={formInfo.schooling} 
+            onChange={ handleChange }
+            name='schooling'
+          >
             <option value="Médio">Médio</option>
             <option value="Superior">Superior</option>
             <option value="Pós-graduação">Pós-graduação</option>
@@ -52,8 +82,9 @@ function App() {
           <textarea
             maxLength={500} 
             style={{ width: '421px', height: '150px', backgroundColor: 'black', padding: '10px' }}
-            value={resume}
-            onChange={({ target }) => setResume(target.value)}
+            value={formInfo.resume}
+            onChange={handleChange}
+            name='resume'
           />
         </label>
 
