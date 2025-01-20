@@ -1,10 +1,18 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    event.preventDefault();
+    navigate('/coffe');
+  };
+
   return (
     <main>
       <h2>Home Page</h2>
-      <Link to="/coffe">Nossos cafés</Link>
+      <button onClick={(event) => handleClick(event)}>Nossos Cafés</button>
+      {/* <Link to="/coffe">Nossos cafés</Link> */}
     </main>
   )
 }
