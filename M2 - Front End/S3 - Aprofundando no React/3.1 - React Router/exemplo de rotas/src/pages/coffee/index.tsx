@@ -1,6 +1,6 @@
 function Coffe() {
   return (
-    <div>Coffe Page</div>
+    <h2>Coffe Page</h2>
   )
 }
 

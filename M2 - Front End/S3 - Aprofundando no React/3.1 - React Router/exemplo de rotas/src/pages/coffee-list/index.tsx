@@ -1,6 +1,6 @@
 function CoffeList() {
   return (
-    <div>Coffe-list Page</div>
+    <h2>Coffe-list Page</h2>
   )
 }
 
