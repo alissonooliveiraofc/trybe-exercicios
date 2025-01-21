@@ -5,8 +5,7 @@ function NavBar() {
   return (
     <nav>
       <NavLink to='/'>Home</NavLink>
-      <NavLink to='/coffe'>Cafés</NavLink>
-      <NavLink to='/coffe-list'>Lista de Cafés</NavLink>
+      <NavLink to='/cafes'>Cafés</NavLink>
     </nav>
   )
 }

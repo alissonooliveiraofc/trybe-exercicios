@@ -1,7 +1,23 @@
-function CoffeList() {
+import { Link } from 'react-router-dom';
+import { coffeeList } from '../../data';
+
+function CoffeeList() {
   return (
-    <h2>Coffe-list Page</h2>
+    <div>
+      <h1>Nossos cafés</h1>
+      <main>
+        <ul>
+          {
+            coffeeList.map((coffee) => (
+              <Link to={ `/cafes/${coffee.slug}` } key={ coffee.id }>
+                <li>{ coffee.title }</li>
+              </Link>
+            ))
+          }
+        </ul>
+      </main>
+    </div>
   )
 }
 
-export default CoffeList;
+export default CoffeeList;

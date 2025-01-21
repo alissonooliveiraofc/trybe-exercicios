@@ -1,23 +1,21 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-import Coffe from './pages/coffee';
-import CoffeList from './pages/coffee-list';
+import CoffeeList from './pages/coffee-list';
+import Coffee from './pages/coffee';
 import NavBar from './components/Navbar';
 import './App.css';
 
 function App() {
-
   return (
     <>
-    <NavBar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/coffe" element={<Coffe />} />
-      <Route path="/coffe-list" element={<CoffeList />} />
-    </Routes>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+        <Route path="/cafes" element={ <CoffeeList /> } />
+        <Route path="/cafes/:cafe" element={ <Coffee /> } />
+      </Routes>
     </>
-    
-  )
+  );
 }
 
 export default App;

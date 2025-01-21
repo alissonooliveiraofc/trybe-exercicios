@@ -5,7 +5,7 @@ function Home() {
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     event.preventDefault();
-    navigate('/coffe');
+    navigate('/cafes');
   };
 
   return (
