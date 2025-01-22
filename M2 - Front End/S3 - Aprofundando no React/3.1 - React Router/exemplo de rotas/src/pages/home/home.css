@@ -46,9 +46,9 @@
   text-align: center;
   min-width: 50px;
   color: #f2f4f3;
-  margin: 80px 25px;
+  margin-top: 15px;
 }
 
 .home-page button:hover {
-  background-color: #5e503f;
+  background-color: #352108;
 }
