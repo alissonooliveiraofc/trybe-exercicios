@@ -3,10 +3,12 @@ import './navBar.css';
 
 function NavBar() {
   return (
-    <nav>
+    <header className="nav-bar">
+      <nav className="nav">
       <NavLink to='/'>Home</NavLink>
       <NavLink to='/cafes'>Cafés</NavLink>
-    </nav>
+      </nav>
+    </header>
   )
 }
 
