@@ -1,0 +1,12 @@
+div {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 15px;
+}
+
+img {
+  text-align: center;
+  
+}
