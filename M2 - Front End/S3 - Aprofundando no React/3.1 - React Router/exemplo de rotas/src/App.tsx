@@ -9,11 +9,12 @@ import './App.css';
 function App() {
   return (
     <>
-      <NavBar />
       <Routes>
-        <Route path="/" element={ <Home /> } />
-        <Route path="/cafes" element={ <CoffeeList /> } />
-        <Route path="/cafes/:cafe" element={ <Coffee /> } />
+        <Route path="/" element={ <NavBar /> }>
+          <Route index element={ <Home /> } />
+          <Route path="/cafes" element={ <CoffeeList /> } />
+          <Route path="/cafes/:cafe" element={ <Coffee /> } />
+        </Route>
         <Route path="/*" element={ <NotFound />} />
       </Routes>
     </>
