@@ -18,6 +18,12 @@ function App() {
       setLoading(false);
     }
     fetchData();
+
+    const timer = setInterval(() => {
+      fetchData();
+    }, 3000);
+
+    return () => clearInterval(timer);
   }, []);
 
 if (loading) return <h1>Loading...</h1>;
