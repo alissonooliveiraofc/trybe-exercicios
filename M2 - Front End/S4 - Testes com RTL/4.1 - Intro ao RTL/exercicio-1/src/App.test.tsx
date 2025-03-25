@@ -28,15 +28,20 @@ test('Verifica se existe um botão voltar na tela', () => {
 });
 
 test('Verifica se o campo "email" e o botão "enviar" funcionam corretamente.', async () => {
+  // acessando elementos
   render(<App />);
 
   const inputEmail = screen.getByLabelText('Email:');
   const btnSend = screen.getByTestId('id-send');
   const title = screen.getByRole('heading', { name: 'Valor:' });
+
+  // ações do usuário
   const EMAIL_USER = 'email@email.com';
 
   await userEvent.type(inputEmail, EMAIL_USER);
   await userEvent.click(btnSend);
+
+  // testes
   expect(inputEmail).toHaveValue('');
   expect(title).toHaveTextContent(`Valor: ${EMAIL_USER}`);
 });
